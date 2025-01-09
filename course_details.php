@@ -200,33 +200,33 @@ ob_start();
 
                   ?>
 
-                  <a href="./checkout.php?id=<?= $course['id'] ?>" class="btn btn-outline-primary">Add to cart</a>
-                  <a href="<?= get_checkout_link($course['id']) ?>" class="btn btn-success">Buy now</a>
+                  <a href="./checkout.php?id=<?= $course['id'] ?>" class="btn btn-outline-primary">কার্টে যোগ করুন</a>
+                  <a href="<?= get_checkout_link($course['id']) ?>" class="btn btn-success">এখন কিনুন</a>
                 </div>
                 <!-- Divider -->
                 <hr>
 
                 <!-- Title -->
-                <h5 class="mb-3">This course includes</h5>
+                <h5 class="mb-3">এই কোর্সে অন্তর্ভুক্ত রয়েছে</h5>
                 <ul class="list-group list-group-borderless border-0">
                   <li class="list-group-item px-0 d-flex justify-content-between">
-                    <span class="h6 fw-light mb-0"><i class="fas fa-fw fa-book-open text-primary"></i>Lectures</span>
+                    <span class="h6 fw-light mb-0"><i class="fas fa-fw fa-book-open text-primary"></i>লেকচার</span>
                     <span><?= get_total_lectures($course) ?></span>
                   </li>
                   <li class="list-group-item px-0 d-flex justify-content-between">
-                    <span class="h6 fw-light mb-0"><i class="fas fa-fw fa-clock text-primary"></i>Duration</span>
+                    <span class="h6 fw-light mb-0"><i class="fas fa-fw fa-clock text-primary"></i>সময়কাল</span>
                     <span><?= $course['duration'] ?></span>
                   </li>
                   <li class="list-group-item px-0 d-flex justify-content-between">
-                    <span class="h6 fw-light mb-0"><i class="fas fa-fw fa-signal text-primary"></i>Skills</span>
+                    <span class="h6 fw-light mb-0"><i class="fas fa-fw fa-signal text-primary"></i>দক্ষতা</span>
                     <span>Beginner</span>
                   </li>
                   <li class="list-group-item px-0 d-flex justify-content-between">
-                    <span class="h6 fw-light mb-0"><i class="fas fa-fw fa-globe text-primary"></i>Language</span>
+                    <span class="h6 fw-light mb-0"><i class="fas fa-fw fa-globe text-primary"></i>ভাষা</span>
                     <span><?= $course['language'] ?></span>
                   </li>
                   <li class="list-group-item px-0 d-flex justify-content-between">
-                    <span class="h6 fw-light mb-0"><i class="fas fa-fw fa-medal text-primary"></i>Certificate</span>
+                    <span class="h6 fw-light mb-0"><i class="fas fa-fw fa-medal text-primary"></i>সার্টিফিকেট</span>
                     <span>Yes</span>
                   </li>
                 </ul>
@@ -251,12 +251,12 @@ ob_start();
             <!-- Requirements START -->
             <div class="col-md-6 col-xl-12">
               <div class="card card-body border p-4">
-                <h4 class="mb-3">Requirements</h4>
+                <h4 class="mb-3">প্রয়োজনীয়তা</h4>
                 <ul class="list-group list-group-borderless pt-3">
-                  <li class="list-group-item h6 fw-light d-flex mb-0"><i class="fas fa-info-circle text-primary me-2"></i>Need a Computer/Laptop/Mobile</li>
-                  <li class="list-group-item h6 fw-light d-flex mb-0"><i class="fas fa-info-circle text-primary me-2"></i>Good Internet Connection</li>
-                  <li class="list-group-item h6 fw-light d-flex mb-0"><i class="fas fa-info-circle text-primary me-2"></i>Concept in RC Building Design</li>
-                  <li class="list-group-item h6 fw-light d-flex mb-0"><i class="fas fa-info-circle text-primary me-2"></i>Concept in Structural Analysis</li>
+                  <li class="list-group-item h6 fw-light d-flex mb-0"><i class="fas fa-info-circle text-primary me-2"></i>একটি কম্পিউটার/ল্যাপটপ/মোবাইল প্রয়োজন।</li>
+                  <li class="list-group-item h6 fw-light d-flex mb-0"><i class="fas fa-info-circle text-primary me-2"></i>ভাল ইন্টারনেট সংযোগ।</li>
+                  <li class="list-group-item h6 fw-light d-flex mb-0"><i class="fas fa-info-circle text-primary me-2"></i>আরসিসি বিল্ডিং ডিজাইনের ধারণা</li>
+                  <li class="list-group-item h6 fw-light d-flex mb-0"><i class="fas fa-info-circle text-primary me-2"></i>স্ট্রাকচারাল অ্যানালাইসিসের ধারণা</li>
                 </ul>
               </div>
             </div>
@@ -264,13 +264,13 @@ ob_start();
             <!-- Audience START -->
             <div class="col-md-6 col-xl-12">
               <div class="card card-body border p-4">
-                <h4 class="mb-3">Audience</h4>
+                <h4 class="mb-3">লক্ষ্য শ্রোতা</h4>
                 <ul class="list-group list-group-borderless pt-3">
-                  <li class="list-group-item h6 fw-light d-flex mb-0"><i class="fas fa-info-circle text-primary me-2"></i>B.Sc. In Civil Engineering Student</li>
-                  <li class="list-group-item h6 fw-light d-flex mb-0"><i class="fas fa-info-circle text-primary me-2"></i>Diploma In Engineering (Civil) Student</li>
-                  <li class="list-group-item h6 fw-light d-flex mb-0"><i class="fas fa-info-circle text-primary me-2"></i>Civil Engineering Job Holder</li>
-                  <li class="list-group-item h6 fw-light d-flex mb-0"><i class="fas fa-info-circle text-primary me-2"></i>Who want to learn Structural Design</li>
-                  <li class="list-group-item h6 fw-light d-flex mb-0"><i class="fas fa-info-circle text-primary me-2"></i>Who want to learn Complete Etabs</li>
+                  <li class="list-group-item h6 fw-light d-flex mb-0"><i class="fas fa-info-circle text-primary me-2"></i>সিভিল ইঞ্জিনিয়ারিং এর বিএসসি শিক্ষার্থী</li>
+                  <li class="list-group-item h6 fw-light d-flex mb-0"><i class="fas fa-info-circle text-primary me-2"></i>ইঞ্জিনিয়ারিং (সিভিল) ডিপ্লোমা ছাত্র</li>
+                  <li class="list-group-item h6 fw-light d-flex mb-0"><i class="fas fa-info-circle text-primary me-2"></i>সিভিল ইঞ্জিনিয়ারিং চাকরিজীবী</li>
+                  <li class="list-group-item h6 fw-light d-flex mb-0"><i class="fas fa-info-circle text-primary me-2"></i>যে ব্যক্তি স্ট্রাকচারাল ডিজাইন শিখতে চান</li>
+                  <li class="list-group-item h6 fw-light d-flex mb-0"><i class="fas fa-info-circle text-primary me-2"></i>যে ব্যক্তি কমপ্লিট ইট্যাবস শিখতে চান</li>
                 </ul>
               </div>
             </div>
