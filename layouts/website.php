@@ -347,11 +347,11 @@ include_once('includes/get_user_by_id.php');
                     <h5 class="mb-2 mb-md-4">যোগাযোগ করুন</h5>
                     <!-- Time -->
                     <p class="mb-2">
-                        ফোন নম্বর :<span class="h6 fw-light ms-2">+880 1771868382</span>
+                        ফোন নম্বর :<span class="h6 fw-light ms-2">+880 1729138490</span>
                         <span class="d-block small">(9:30 AM to 8:30 BST)</span>
                     </p>
 
-                    <p class="mb-0">ইমেইল :<span class="h6 fw-light ms-2">email.dwip@gmail.com</span></p>
+                    <p class="mb-0">ইমেইল :<span class="h6 fw-light ms-2">mantrigaon@gmail.com</span></p>
 
                     <div class="row g-2 mt-2">
                         <!-- Google play store button -->
